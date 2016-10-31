@@ -31,3 +31,10 @@ Click the gear icon next to the Project name in the top left corner of the Fireb
 #Create Apps Script project
 
 #Add FireBase library to Apps Script Project
+
+Resources > Libraries
+
++Insert the following project key in 'Find a Library': MYeP8ZEEt1ylVDxS7uyg9plDOcoke7-2l
++Click 'Select'
++Select the latest public release
++Click OK and the library is added to the project and ready for use.
