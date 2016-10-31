@@ -12,6 +12,7 @@ function classesMain(){
   var classes = indexClasses(classIdArray, object);
 
   writeDb("classes", classes);
+  
 }
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -43,8 +44,11 @@ function createIdArray(object){
   for(var i = 0; i < object.classes.length; i++){
   
     if(object.classes[i].name.indexOf('Curriculum') == -1){
+      
       array.push(object.classes[i].id); 
+      
     }
+    
   }
 
   return array;
