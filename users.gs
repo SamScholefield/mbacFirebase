@@ -25,7 +25,7 @@ function callManagebacUsers(){
 }
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-//return classes as JSON object
+//return users as JSON object
 function getJsonUsers(response){
 
   var object = JSON.parse(response.getContentText());
