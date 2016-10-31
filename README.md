@@ -38,3 +38,6 @@ Resources > Libraries
 + Click 'Select'
 + Select the latest public release
 + Click OK and the library is added to the project and ready for use.
+
+This library is available thanks to awesome work by [Romain Vialard](https://plus.google.com/u/0/+RomainVialard-public/about)
+
