@@ -36,15 +36,6 @@ To view the database secret hover over the password field and click 'Show'. This
 
 #Create Apps Script project
 
-
-Managing Projects
-
-Creating and deleting projects
-
-This will teach you how to create a standalone project from Google Drive and how to create a container-bound project for each of the supported containers.
-
-Creating a project from Google Drive
-
 The first time you want to create a script from Drive, follow these steps:
 
 + Open Google Drive.
