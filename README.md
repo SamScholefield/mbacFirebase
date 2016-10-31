@@ -43,3 +43,12 @@ Resources > Libraries
 
 This library is available thanks to awesome work by [Romain Vialard](https://plus.google.com/u/0/+RomainVialard-public/about)
 
+#Create script files inside project
+
++ utility.gs
++ users.gs
++ classes.gs
++ memberships.gs
+
+#Enable project triggers to automate the update of Firebase with ManageBac data
+
