@@ -1,5 +1,9 @@
 # mbacFirebase
-Populate Firebase with ManageBac data for faster retrieval.
+Use Google Apps Script to Populate Firebase with ManageBac data for faster retrieval. 
+
+This project came about due to restrictions within ManageBac meaning that only assigned class teachers can obtain class lists, and only Account admins can use the directory.
+
+Teachers and middle level leaders at our institution had a need to access and use lists based on class or school division membership. These lists contain the student and Parent 1/Parent 2 contact details and salutations. 
 
 #Enable API access to Managebac
 
