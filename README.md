@@ -26,7 +26,7 @@ These settings remove public accessibility to your database and ensure that only
 
 #Obtain FireBase database 'secret'
 
-Click the gear icon next to the Project name in the top left corner of the Firebase console. From here select 'Project settings' then in the context specific top navigation select 'Database'. To view the database secret hover over the password field and click 'Show'. This scret is required for each read/write instruction as described above.
+Click the gear icon next to the Project name in the top left corner of the Firebase console. From here select 'Project settings' then in the context specific top navigation select 'Database'. To view the database secret hover over the password field and click 'Show'. This key is required for each read/write instruction as described above.
 
 #Create Apps Script project
 
