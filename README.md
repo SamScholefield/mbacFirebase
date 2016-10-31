@@ -1,5 +1,5 @@
 # mbacFirebase
-Use Google Apps Script to Populate Firebase with ManageBac data for faster retrieval. 
+Use Google Apps Script to populate a Firebase realtime database with ManageBac data for faster retrieval. 
 
 This project came about due to restrictions within ManageBac meaning that only assigned class teachers can obtain class lists, and only Account admins can use the directory.
 
@@ -9,11 +9,11 @@ Teachers and middle level leaders at our institution had a need to access and us
 
 Settings > Integrations
 
-Check the box to 'Enable Public API Integration'. A public API token will then be available and should be used to authenticate each call. This can be regenerated as necessary.
+Check the box to 'Enable Public API Integration'. A ManageBac public API token will then be available to you and should be used to authenticate each call. This can be regenerated as necessary.
 
 #Create Firebase project
 
-Use the 'sign in with Google' option to create a FireBase account. Once you have a FireBase account use the 'Create New Project' button to create an account. Set the name of the project and your Country/region then click 'Create Project'.
+Use the 'Sign in with Google' option to create a FireBase account. Once you have a FireBase account use the 'Create New Project' button to create an account. Set the name of the project and your Country/region then click 'Create Project'.
 
 #Set FireBase read/write permissions
 
@@ -35,6 +35,32 @@ Click the gear icon next to the Project name in the top left corner of the Fireb
 To view the database secret hover over the password field and click 'Show'. This key is required for each read/write instruction as described above.
 
 #Create Apps Script project
+
+
+Managing Projects
+
+Creating and deleting projects
+
+This will teach you how to create a standalone project from Google Drive and how to create a container-bound project for each of the supported containers.
+
+Creating a project from Google Drive
+
+The first time you want to create a script from Drive, follow these steps:
+
++ Open Google Drive.
++ Click Create.
++ Click Connect more apps.
++ When the "Connect apps to Drive" window appears, type "script" into the search box and press the Enter key.
++ Click Connect next to the listing for Google Apps Script.
++ Click OK in the confirmation window.
+
+Now that you've connected the app, you can create a script by following just these steps:
+
++ Open Google Drive.
++ Click Create.
++ Select Script.
++ Select File > Save.
++ Enter the name of your project and click OK to save it.
 
 #Add FireBase library to Apps Script Project
 
