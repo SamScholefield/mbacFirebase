@@ -1,5 +1,7 @@
 # mbacFirebase
-Use Google Apps Script to populate a Firebase realtime database with ManageBac data for faster retrieval. 
+Use Google Apps Script to populate a Firebase realtime database with ManageBac data for faster retrieval.
+
+This is not a real-time system and the Firebase data is updated on a daily basis (dependent on Apps Script project triggers).
 
 This project came about due to restrictions within ManageBac meaning that only assigned class teachers can obtain class lists, and only Account admins can use the directory.
 
