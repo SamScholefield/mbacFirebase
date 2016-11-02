@@ -3,7 +3,7 @@ var classUrl = "https://YOUR_MANAGEBAC_DOMAIN/api/classes?auth_token=YOUR_MANAGE
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 function classesMain(){
   
-  var response = callManagebac();
+  var response = callManagebacClasses();
   
   var object = getJson(response);  
 
