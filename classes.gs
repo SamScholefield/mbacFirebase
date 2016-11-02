@@ -5,7 +5,7 @@ function classesMain(){
   
   var response = callManagebacClasses();
   
-  var object = getJson(response);  
+  var object = getJsonClasses(response);  
 
   var classIdArray = createIdArray(object);
   
@@ -27,7 +27,7 @@ function callManagebacClasses(){
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //return classes as JSON object
-function getJson(response){
+function getJsonClasses(response){
 
   var object = JSON.parse(response.getContentText());
 
