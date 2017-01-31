@@ -25,7 +25,7 @@ function getMembers(id){
 
   var baseUrl = "https://vis.managebac.com/api/groups/" + id.toString() + "/members";
   
-  var auth_token = "?auth_token=2d35648b6c570ece46e65539dbe9e3f2";
+  var auth_token = "?<YOUR_AUTH_TOKEN";
   
   var memberUrl = baseUrl + auth_token;
   
